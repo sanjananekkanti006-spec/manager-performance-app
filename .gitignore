@@ -1,0 +1,15 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Secrets - NEVER commit these
+.streamlit/secrets.toml
+.env
+
+# macOS / editor files
+.DS_Store
+.vscode/
